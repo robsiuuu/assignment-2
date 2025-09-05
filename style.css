@@ -1,0 +1,84 @@
+/* Body styling */
+body {
+  background-color: white;
+  color: #404040;
+  font-family: Georgia, Garamond, serif;
+  font-size: 11pt;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Main heading */
+header h1 {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #a4a400;
+  margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+  text-align: left;
+  font-size: 18pt;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #a4a400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #a4a400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Blockquote (testimonial) */
+blockquote {
+  background-color: #ffffa8;
+  font-style: italic;
+  margin: 20px;
+  padding: 15px;
+  border-left: 5px solid #a4a400;
+  border-radius: 5px;
+}
+
+blockquote strong {
+  font-weight: bold;
+  color: #404040;
+}
+
+/* Lists */
+ol,
+ul {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Figure styling */
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #404040;
+}
